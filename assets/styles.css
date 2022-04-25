@@ -1,0 +1,115 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 10px;
+}
+.block1 {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+}
+.block2 {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+}
+.block3 {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+}
+.block4 {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+}
+.block5 {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+}
+.block6 {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  border-width: 100%;
+}
+.part2 {
+  display: flex;
+}
+.stars {
+  display: flex;
+}
+
+.Instore {
+  display: flex;
+}
+.Instoretitle {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: small;
+}
+
+.Outofstore {
+  display: flex;
+}
+.Outofstoretitle {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: small;
+}
+.dogfood {
+  font-size: small;
+}
+.table1 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+  background-color: white;
+  gap: 5px;
+}
+.paw300g {
+  display: flex;
+}
+.paw300gtitle {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.paw1kg {
+  display: flex;
+}
+.paw1kgtitle {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.paw2kg {
+  display: flex;
+}
+.paw2kgtitle {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.paw5kg {
+  display: flex;
+}
+.paw5kgtitle {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
