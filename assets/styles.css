@@ -8,11 +8,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: white;
   gap: 10px;
+  width: 80%;
 }
 .block1 {
   box-sizing: border-box;
   border: 5px solid whitesmoke;
   border-width: 100%;
+  padding: 5px;
 }
 
 .reduct1 {
@@ -25,9 +27,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   text-align: center;
-  padding: 5px;
-  margin-left: 45px;
-  margin-top: 15px;
+  padding: 8px;
+  margin-left: 20px;
 }
 
 .image1 {
@@ -37,19 +38,13 @@
 .part1 {
   display: flex;
   justify-content: center;
-  gap: 120px;
+  gap: 20px;
 }
 .Instore1 {
   display: flex;
-  gap: 50px;
-}
-.Instoretitle1 {
-  display: flex;
   align-items: center;
-  padding: 5px;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .dogfood1 {
   display: flex;
   justify-content: center;
@@ -72,6 +67,7 @@
   box-sizing: border-box;
   border: 5px solid whitesmoke;
   border-width: 100%;
+  padding: 5px;
 }
 .reduct2 {
   background: red;
@@ -83,9 +79,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   text-align: center;
-  padding: 5px;
-  margin-left: 45px;
-  margin-top: 15px;
+  padding: 8px;
+  margin-left: 20px;
 }
 .image2 {
   display: flex;
@@ -98,14 +93,9 @@
 }
 .Outofstore1 {
   display: flex;
-}
-.Outofstoretitle1 {
-  display: flex;
   align-items: center;
-  padding: 5px;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .dogfood2 {
   display: flex;
   justify-content: center;
@@ -126,6 +116,7 @@
   box-sizing: border-box;
   border: 5px solid whitesmoke;
   border-width: 100%;
+  padding: 5px;
 }
 .reduct3 {
   background: red;
@@ -137,9 +128,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   text-align: center;
-  padding: 5px;
-  margin-left: 45px;
-  margin-top: 15px;
+  padding: 8px;
+  margin-left: 20px;
 }
 .image3 {
   display: flex;
@@ -152,14 +142,9 @@
 }
 .Instore2 {
   display: flex;
-}
-.Instoretitle2 {
-  display: flex;
   align-items: center;
-  padding: 5px;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .dogfood3 {
   display: flex;
   justify-content: center;
@@ -180,6 +165,7 @@
   box-sizing: border-box;
   border: 5px solid whitesmoke;
   border-width: 100%;
+  padding: 5px;
 }
 .reduct4 {
   background: red;
@@ -191,9 +177,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   text-align: center;
-  padding: 5px;
-  margin-left: 45px;
-  margin-top: 15px;
+  padding: 8px;
+  margin-left: 20px;
 }
 .image4 {
   display: flex;
@@ -206,14 +191,9 @@
 }
 .Outofstore2 {
   display: flex;
-}
-.Outofstoretitle2 {
-  display: flex;
   align-items: center;
-  padding: 5px;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .dogfood4 {
   display: flex;
   justify-content: center;
@@ -234,6 +214,7 @@
   box-sizing: border-box;
   border: 5px solid whitesmoke;
   border-width: 100%;
+  padding: 5px;
 }
 .reduct5 {
   background: red;
@@ -245,9 +226,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   text-align: center;
-  padding: 5px;
-  margin-left: 45px;
-  margin-top: 15px;
+  padding: 8px;
+  margin-left: 20px;
 }
 .image5 {
   display: flex;
@@ -260,14 +240,9 @@
 }
 .Instore3 {
   display: flex;
-}
-.Instoretitle3 {
-  display: flex;
   align-items: center;
-  padding: 5px;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .dogfood5 {
   display: flex;
   justify-content: center;
@@ -288,6 +263,7 @@
   box-sizing: border-box;
   border: 5px solid whitesmoke;
   border-width: 100%;
+  padding: 5px;
 }
 .reduct6 {
   background: red;
@@ -299,9 +275,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   text-align: center;
-  padding: 5px;
-  margin-left: 45px;
-  margin-top: 15px;
+  padding: 8px;
+  margin-left: 20px;
 }
 .image6 {
   display: flex;
@@ -314,14 +289,9 @@
 }
 .Instore4 {
   display: flex;
-}
-.Instoretitle4 {
-  display: flex;
   align-items: center;
-  padding: 5px;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 .dogfood6 {
   display: flex;
   justify-content: center;
@@ -338,24 +308,19 @@
   font-size: smaller;
   color: red;
 }
-input[type="checkbox"] {
-  width: 10px;
-  height: 10px;
-}
+
 .checkbox {
-  display: inline-flex;
+  display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 15px;
-  margin-top: 6px;
+  padding-left: 23px;
+
   cursor: pointer;
-  font-size: small;
+  font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  align-items: center;
 }
 .checkbox input {
   position: absolute;
@@ -363,16 +328,20 @@ input[type="checkbox"] {
   cursor: pointer;
   height: 0;
   width: 0;
+  padding: 55px;
 }
 .checkmark {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 13px;
+  width: 13px;
   background-color: white;
   border: 2px solid #2196f3;
   border-radius: 5px;
+  justify-content: center;
+
+  flex-shrink: 0;
 }
 .checkbox:hover input ~ .checkmark {
   background-color: white;
@@ -389,10 +358,12 @@ input[type="checkbox"] {
   display: block;
 }
 .checkbox .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
+  left: 4px;
+  top: 0px;
+  width: 3.5px;
+  height: 7px;
+  right: 3px;
+
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
@@ -409,7 +380,7 @@ input[type="checkbox"] {
 .table1 {
   display: flex;
   margin-top: 20px;
-  justify-content: flex-start;
+  align-items: center;
   background-color: white;
   gap: 35px;
 }
@@ -504,4 +475,80 @@ button {
 .strike6 {
   margin-top: 20px;
   margin-left: 10px;
+}
+.rating {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.rating input {
+  display: none;
+}
+.rating label {
+  display: block;
+  cursor: pointer;
+}
+.rating label::before {
+  content: url(/js-project/noun-star-4812624\\(1\).svg);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: black;
+}
+.rating label::after {
+  content: url(/js-project/noun-star-4812624\\(1\).svg);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  display: block;
+  color: #2196f3;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.rating label:hover::after,
+.rating label:hover ~ label::after,
+.rating input:checked ~ label::after {
+  opacity: 1;
+}
+.paws {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.paws input {
+  display: none;
+}
+.paws label {
+  display: block;
+  cursor: pointer;
+}
+.paws label::before {
+  content: url(/js-project/noun-paws-4057009.svg);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: black;
+}
+.paws label::after {
+  content: url(/js-project/noun-paws-4057009.svg);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  display: block;
+  color: #2196f3;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.paws label:hover::after,
+.paws label:hover ~ label::after,
+.paws input:checked ~ label::after {
+  opacity: 1;
 }
