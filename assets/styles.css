@@ -38,7 +38,7 @@
 .part1 {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  
 }
 .Instore1 {
   display: flex;
@@ -490,7 +490,7 @@ button {
 }
 .rating label::before {
   content: url(/js-project/noun-star-4812624\\(1\).svg);
-  font-family: "Font Awesome 5 Free";
+  font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
   position: relative;
   display: block;
@@ -499,7 +499,7 @@ button {
 }
 .rating label::after {
   content: url(/js-project/noun-star-4812624\\(1\).svg);
-  font-family: "Font Awesome 5 Free";
+  font-family: font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
   position: absolute;
   top: 0;
