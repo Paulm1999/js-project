@@ -16,7 +16,54 @@
   border-width: 100%;
   padding: 5px;
 }
+/* styles for new rating  */
+.rating-group {
+  display: inline-flex;
+}
+.rating__icon {
+  pointer-events: none;
+}
+.rating__input {
+  position: absolute !important;
+  left: -9999px !important;
+}
+.rating__label {
+  cursor: pointer;
+  padding: 0 0.1em;
+  font-size: 1rem;
+}
+.rating__icon--star {
+  color: #2196f3;
+}
+.rating__icon--none {
+  color: #eee;
+}
+.rating__input--none:checked + .rating__label .rating__icon--none {
+  color: red;
+}
+.rating__input:checked ~ .rating__label .rating__icon--star {
+  color: #ddd;
+}
 
+/* make all stars orange on rating group hover */
+.rating-group:hover .rating__label .rating__icon--star {
+  color: #2196f3;
+}
+
+/* make hovered input's following siblings grey on hover */
+.rating__input:hover ~ .rating__label .rating__icon--star {
+  color: #ddd;
+}
+
+/* make none icon grey on rating group hover */
+.rating-group:hover
+  .rating__input--none:not(:hover)
+  + .rating__label
+  .rating__icon--none {
+  color: #eee;
+}
+
+/* end of styles for new rating */
 .reduct1 {
   background: red;
   border-radius: 5px;
@@ -476,12 +523,12 @@ button {
   margin-top: 20px;
   margin-left: 10px;
 }
-.rating {
+/* .rating {
   position: absolute;
   transform: translate(-50%, -50%);
   display: flex;
-}
-.rating input {
+} */
+/* .rating input {
   display: none;
 }
 .rating label {
@@ -513,7 +560,7 @@ button {
 .rating label:hover ~ label::after,
 .rating input:checked ~ label::after {
   opacity: 1;
-}
+} */
 .paws {
   position: absolute;
   transform: translate(-50%, -50%);
