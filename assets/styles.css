@@ -16,7 +16,11 @@
   border-width: 100%;
   padding: 5px;
 }
-
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 .rating-group {
   display: inline-flex;
 }
@@ -64,8 +68,13 @@
 }
 
 /* end of styles for new rating */
+.paws {
+  display: flex;
+  justify-content: center;
+}
 .paws-group {
   display: inline-flex;
+  justify-content: center;
 }
 .paws__icon {
   pointer-events: none;
