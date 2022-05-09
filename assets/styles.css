@@ -15,6 +15,7 @@
   border: 5px solid whitesmoke;
   border-width: 100%;
   padding: 5px;
+  justify-content: center;
 }
 .rating {
   display: flex;
@@ -87,6 +88,7 @@
   cursor: pointer;
   padding: 0 0.1em;
   font-size: 1rem;
+  gap: 20px;
 }
 .paws__icon--fa-solid {
   color: #2196f3;
@@ -136,11 +138,7 @@
   display: flex;
   justify-content: center;
 }
-.part1 {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
+
 .Instore1 {
   display: flex;
   align-items: center;
@@ -169,6 +167,7 @@
   border: 5px solid whitesmoke;
   border-width: 100%;
   padding: 5px;
+  justify-content: center;
 }
 .reduct2 {
   background: red;
@@ -187,11 +186,7 @@
   display: flex;
   justify-content: center;
 }
-.part2 {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-}
+
 .Outofstore1 {
   display: flex;
   align-items: center;
@@ -218,6 +213,7 @@
   border: 5px solid whitesmoke;
   border-width: 100%;
   padding: 5px;
+  justify-content: center;
 }
 .reduct3 {
   background: red;
@@ -236,11 +232,7 @@
   display: flex;
   justify-content: center;
 }
-.part3 {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-}
+
 .Instore2 {
   display: flex;
   align-items: center;
@@ -267,6 +259,7 @@
   border: 5px solid whitesmoke;
   border-width: 100%;
   padding: 5px;
+  justify-content: center;
 }
 .reduct4 {
   background: red;
@@ -285,11 +278,7 @@
   display: flex;
   justify-content: center;
 }
-.part4 {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-}
+
 .Outofstore2 {
   display: flex;
   align-items: center;
@@ -316,6 +305,7 @@
   border: 5px solid whitesmoke;
   border-width: 100%;
   padding: 5px;
+  justify-content: center;
 }
 .reduct5 {
   background: red;
@@ -334,11 +324,7 @@
   display: flex;
   justify-content: center;
 }
-.part5 {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-}
+
 .Instore3 {
   display: flex;
   align-items: center;
@@ -365,6 +351,7 @@
   border: 5px solid whitesmoke;
   border-width: 100%;
   padding: 5px;
+  justify-content: center;
 }
 .reduct6 {
   background: red;
@@ -383,11 +370,7 @@
   display: flex;
   justify-content: center;
 }
-.part6 {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-}
+
 .Instore4 {
   display: flex;
   align-items: center;
@@ -576,43 +559,4 @@ button {
 .strike6 {
   margin-top: 20px;
   margin-left: 10px;
-}
-
-.paws {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  display: flex;
-}
-.paws input {
-  display: none;
-}
-.paws label {
-  display: block;
-  cursor: pointer;
-}
-.paws label::before {
-  content: url(/js-project/noun-paws-4057009.svg);
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: relative;
-  display: block;
-  font-size: 50px;
-  color: black;
-}
-.paws label::after {
-  content: url(/js-project/noun-paws-4057009.svg);
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  display: block;
-  color: #2196f3;
-  transition: 0.5s;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-.paws label:hover::after,
-.paws label:hover ~ label::after,
-.paws input:checked ~ label::after {
-  opacity: 1;
 }
