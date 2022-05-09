@@ -9,6 +9,7 @@
   background-color: white;
   gap: 10px;
   width: 80%;
+  justify-content: center;
 }
 .block1 {
   box-sizing: border-box;
