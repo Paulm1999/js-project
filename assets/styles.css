@@ -16,11 +16,13 @@
   border-width: 100%;
   padding: 5px;
   justify-content: center;
+  align-items: center;
 }
 .rating {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin: 20px;
 }
 .rating-group {
   display: inline-flex;
@@ -76,6 +78,7 @@
 .paws-group {
   display: inline-flex;
   justify-content: center;
+  gap: 25px;
 }
 .paws__icon {
   pointer-events: none;
@@ -87,8 +90,10 @@
 .paws__label {
   cursor: pointer;
   padding: 0 0.1em;
-  font-size: 1rem;
-  gap: 20px;
+  font-size: smaller;
+  gap: 10px;
+
+  display: flex;
 }
 .paws__icon--fa-solid {
   color: #2196f3;
@@ -149,7 +154,8 @@
   justify-content: center;
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4px;
+
+  margin: 20px;
 }
 .price1 {
   font-size: x-small;
@@ -168,6 +174,7 @@
   border-width: 100%;
   padding: 5px;
   justify-content: center;
+  align-items: center;
 }
 .reduct2 {
   background: red;
@@ -197,7 +204,8 @@
   justify-content: center;
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4px;
+
+  margin: 20px;
 }
 .price3 {
   font-size: x-small;
@@ -214,6 +222,7 @@
   border-width: 100%;
   padding: 5px;
   justify-content: center;
+  align-items: center;
 }
 .reduct3 {
   background: red;
@@ -243,7 +252,8 @@
   justify-content: center;
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4px;
+
+  margin: 20px;
 }
 .price5 {
   font-size: x-small;
@@ -260,6 +270,7 @@
   border-width: 100%;
   padding: 5px;
   justify-content: center;
+  align-items: center;
 }
 .reduct4 {
   background: red;
@@ -289,7 +300,8 @@
   justify-content: center;
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4px;
+
+  margin: 20px;
 }
 .price7 {
   font-size: x-small;
@@ -306,6 +318,7 @@
   border-width: 100%;
   padding: 5px;
   justify-content: center;
+  align-items: center;
 }
 .reduct5 {
   background: red;
@@ -335,7 +348,8 @@
   justify-content: center;
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4px;
+
+  margin: 20px;
 }
 .price9 {
   font-size: x-small;
@@ -352,6 +366,7 @@
   border-width: 100%;
   padding: 5px;
   justify-content: center;
+  align-items: center;
 }
 .reduct6 {
   background: red;
@@ -381,7 +396,8 @@
   justify-content: center;
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 4px;
+
+  margin: 20px;
 }
 .price11 {
   font-size: x-small;
@@ -394,12 +410,12 @@
 }
 
 .checkbox {
-  display: block;
+  display: inline-block;
   position: relative;
   padding-left: 23px;
 
   cursor: pointer;
-  font-size: smaller;
+  font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -454,56 +470,7 @@
   -ms-transform: rotate(45deg);
   transform: (45deg);
 }
-.part2 {
-  display: flex;
-}
-.stars {
-  display: flex;
-}
 
-.table1 {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-  background-color: white;
-  gap: 35px;
-}
-.paw300g {
-  display: flex;
-}
-.paw300gtitle {
-  display: flex;
-  align-items: center;
-  padding: 2px;
-  font-size: x-small;
-}
-.paw1kg {
-  display: flex;
-}
-.paw1kgtitle {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  font-size: x-small;
-}
-.paw2kg {
-  display: flex;
-}
-.paw2kgtitle {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  font-size: x-small;
-}
-.paw5kg {
-  display: flex;
-}
-.paw5kgtitle {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  font-size: x-small;
-}
 button {
   width: 105px;
   height: 35px;
