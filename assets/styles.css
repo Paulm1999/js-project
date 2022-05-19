@@ -22,11 +22,12 @@
 .rating {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 100px;
   margin: 20px;
 }
 .rating-group {
   display: inline-flex;
+  margin-right: 20px;
 }
 .rating__icon {
   pointer-events: none;
@@ -79,7 +80,7 @@
 .paws-group {
   display: inline-flex;
   justify-content: center;
-  gap: 25px;
+  gap: 80px;
 }
 .paws__icon {
   pointer-events: none;
@@ -91,8 +92,8 @@
 .paws__label {
   cursor: pointer;
   padding: 0 0.1em;
-  font-size: smaller;
-  gap: 10px;
+  font-size: medium;
+  gap: 13px;
 
   display: flex;
 }
@@ -128,13 +129,13 @@
 }
 .reduct1 {
   background: red;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
-  width: 30px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
+  font-size: smaller;
   text-align: center;
   padding: 8px;
   margin-left: 20px;
@@ -148,24 +149,25 @@
 .Instore1 {
   display: flex;
   align-items: center;
+  margin-right: 30px;
 }
 
 .dogfood1 {
   display: flex;
   justify-content: center;
-  font-size: smaller;
+  font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 
   margin: 20px;
 }
 .price1 {
-  font-size: x-small;
+  font-size: medium;
   color: grey;
   text-decoration: line-through red;
 }
 
 .price2 {
-  font-size: smaller;
+  font-size: larger;
   color: red;
 }
 
@@ -179,13 +181,13 @@
 }
 .reduct2 {
   background: red;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
-  width: 30px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
+  font-size: smaller;
   text-align: center;
   padding: 8px;
   margin-left: 20px;
@@ -203,18 +205,18 @@
 .dogfood2 {
   display: flex;
   justify-content: center;
-  font-size: smaller;
+  font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 
   margin: 20px;
 }
 .price3 {
-  font-size: x-small;
+  font-size: medium;
   color: grey;
   text-decoration: line-through red;
 }
 .price4 {
-  font-size: smaller;
+  font-size: larger;
   color: red;
 }
 .block3 {
@@ -227,13 +229,13 @@
 }
 .reduct3 {
   background: red;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
-  width: 30px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
+  font-size: smaller;
   text-align: center;
   padding: 8px;
   margin-left: 20px;
@@ -246,23 +248,24 @@
 .Instore2 {
   display: flex;
   align-items: center;
+  margin-right: 30px;
 }
 
 .dogfood3 {
   display: flex;
   justify-content: center;
-  font-size: smaller;
+  font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 
   margin: 20px;
 }
 .price5 {
-  font-size: x-small;
+  font-size: medium;
   color: grey;
   text-decoration: line-through red;
 }
 .price6 {
-  font-size: smaller;
+  font-size: larger;
   color: red;
 }
 .block4 {
@@ -275,13 +278,13 @@
 }
 .reduct4 {
   background: red;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
-  width: 30px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
+  font-size: smaller;
   text-align: center;
   padding: 8px;
   margin-left: 20px;
@@ -299,18 +302,18 @@
 .dogfood4 {
   display: flex;
   justify-content: center;
-  font-size: smaller;
+  font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 
   margin: 20px;
 }
 .price7 {
-  font-size: x-small;
+  font-size: medium;
   color: grey;
   text-decoration: line-through red;
 }
 .price8 {
-  font-size: smaller;
+  font-size: larger;
   color: red;
 }
 .block5 {
@@ -323,13 +326,13 @@
 }
 .reduct5 {
   background: red;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
-  width: 30px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
+  font-size: smaller;
   text-align: center;
   padding: 8px;
   margin-left: 20px;
@@ -342,23 +345,24 @@
 .Instore3 {
   display: flex;
   align-items: center;
+  margin-right: 30px;
 }
 
 .dogfood5 {
   display: flex;
   justify-content: center;
-  font-size: smaller;
+  font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 
   margin: 20px;
 }
 .price9 {
-  font-size: x-small;
+  font-size: medium;
   color: grey;
   text-decoration: line-through red;
 }
 .price10 {
-  font-size: smaller;
+  font-size: larger;
   color: red;
 }
 .block6 {
@@ -371,13 +375,13 @@
 }
 .reduct6 {
   background: red;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
-  width: 30px;
-  height: 10px;
+  width: 35px;
+  height: 15px;
   border: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
+  font-size: smaller;
   text-align: center;
   padding: 8px;
   margin-left: 20px;
@@ -390,23 +394,24 @@
 .Instore4 {
   display: flex;
   align-items: center;
+  margin-right: 30px;
 }
 
 .dogfood6 {
   display: flex;
   justify-content: center;
-  font-size: smaller;
+  font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 
   margin: 20px;
 }
 .price11 {
-  font-size: x-small;
+  font-size: medium;
   color: grey;
   text-decoration: line-through red;
 }
 .price12 {
-  font-size: smaller;
+  font-size: larger;
   color: red;
 }
 
@@ -416,7 +421,7 @@
   padding-left: 23px;
 
   cursor: pointer;
-  font-size: 11px;
+  font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -473,8 +478,8 @@
 }
 
 button {
-  width: 105px;
-  height: 35px;
+  width: 150px;
+  height: 48px;
   cursor: pointer;
   margin: 5px;
   background: none;
@@ -490,11 +495,11 @@ button {
   background: #2196f3;
   border-radius: 5px;
   color: white;
-  font-size: x-small;
+  font-size: medium;
   font-weight: bolder;
   border: 2px;
   padding: 10px;
-  margin-left: 170px;
+  margin-left: 300px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .cart span {
