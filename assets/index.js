@@ -1,6 +1,14 @@
-document.getElementById("check1").checked = true;
-document.getElementById("check2").checked = false;
-document.getElementById("check3").checked = true;
-document.getElementById("check4").checked = false;
-document.getElementById("check5").checked = true;
-document.getElementById("check6").checked = true;
+products = [{}];
+
+const card = () => {
+  return `<div>hello</div>`;
+};
+
+const wrapper = document.querySelector(".container");
+let cards = "";
+
+products.forEach((item) => {
+  cards = cards + card(item);
+});
+
+wrapper.innerHTML = cards;
